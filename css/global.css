@@ -1,6 +1,6 @@
 /* We define the variables we wull be using here, specifically the colors of which we will use the vice base16 scheme of course */
 :root {
-  --global-bg: #17191e;
+  --global-bg: #121418;
   --global-fg: #f4f4f7;
   --global-animation-speed: 300ms;
   --global-blur-strength: 0px;
@@ -25,7 +25,7 @@
   --main-screen-button-bg: #17191e;
   --arrow-indicator-bg: #f4f4f7;
   --arrow-indicator-bg-fade: #f4f4f720;
-  --login-form-bg: #22262dbb;
+  --login-form-bg: #17191ebb;
 }
 /* styles that are applied everywhere, be careful with these they can mess things up if you start assigning too much here */
 * {
