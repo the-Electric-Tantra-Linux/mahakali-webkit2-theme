@@ -17,7 +17,7 @@
   --login-form-elements-button-bg-active: var(--button-bg-active);
   --login-failed-bg: #ff87a7;
   --login-success-bg: var(--button-bg-active);
-  --sidebar-bg: #22262dbb;
+  --sidebar-bg: #17191ebb;
   --sidebar-group-elements-bg: #2f303dbb;
   --sidebar-group-elements-fg: #f4f4f7;
   --sidebar-group-elements-button-bg: #2f303dbb;
@@ -26,6 +26,7 @@
   --arrow-indicator-bg: #f4f4f7;
   --arrow-indicator-bg-fade: #f4f4f720;
   --login-form-bg: #17191ebb;
+  --greeter-bg: #17191ebb;
 }
 /* styles that are applied everywhere, be careful with these they can mess things up if you start assigning too much here */
 * {
