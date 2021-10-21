@@ -46,6 +46,7 @@
   position: relative;
   left: 50%;
   top: 50%;
+  border-radius: 12px;
   transform: translate(-50%, -50%);
 }
 
@@ -107,7 +108,6 @@
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   user-select: none;
-  border-radius: 12px;
 }
 
 #greeter-message.greeter-content {
