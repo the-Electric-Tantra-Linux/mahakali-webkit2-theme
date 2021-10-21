@@ -162,6 +162,7 @@
   display: block;
   opacity: 1;
   background: var(--tooltip-error-bg);
+  color: var(--base-bg);
 }
 
 .tooltip-message.tooltip-left.tooltip-success {
