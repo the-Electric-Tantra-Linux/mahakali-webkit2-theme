@@ -47,6 +47,7 @@
   left: 50%;
   top: 50%;
   border-radius: 12px;
+  padding: 3rem;
   transform: translate(-50%, -50%);
 }
 
