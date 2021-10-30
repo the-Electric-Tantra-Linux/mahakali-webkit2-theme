@@ -8,7 +8,7 @@
 	padding: 0;
 	z-index: 0;
 	overflow: hidden;
-/*	filter: blur(var(--global-blur-strength));	*/
+	filter: blur(var(--global-blur-strength));	
 	background-color: #22262d;
 	background-size: cover;
 	background-repeat: no-repeat;
