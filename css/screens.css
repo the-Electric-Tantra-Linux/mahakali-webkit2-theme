@@ -65,7 +65,7 @@
 }
 
 #screen-goodbye-image.screen-image {
-  filter: blur(var(--global-blur-strength));
+  /* filter: blur(var(--global-blur-strength)); */
 }
 
 #goodbye-power-icon.goodbye-content {

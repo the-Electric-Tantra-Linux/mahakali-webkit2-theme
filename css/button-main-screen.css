@@ -37,7 +37,7 @@
 }
 /* Give an illusion that it's being blurred by sidebar */
 .button-main-screen-image.button-main-screen-blur {
-  filter: blur(var(--global-blur-strength));
+  /* filter: blur(var(--global-blur-strength)); */
 }
 
 #buttons-main-screen-settings-parent.buttons-main-screen-parent {

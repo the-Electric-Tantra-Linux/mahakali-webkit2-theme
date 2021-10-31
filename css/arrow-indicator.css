@@ -86,7 +86,6 @@
   left: -30px;
   animation: animate-arrow-one 5s linear infinite;
 
-  background: var(--sidebar-bg);
   padding: 1rem;
 }
 
@@ -95,7 +94,6 @@
   left: -15px;
   animation: animate-arrow-two 5s linear infinite;
 
-  background: var(--sidebar-bg);
   padding: 1rem;
 }
 
@@ -104,6 +102,5 @@
   left: 0;
   animation: animate-arrow-three 5s linear infinite;
 
-  background: var(--sidebar-bg);
   padding: 1rem;
 }
