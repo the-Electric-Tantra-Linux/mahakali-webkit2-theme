@@ -1,3 +1,8 @@
+/* _______ __         __           __
+|     __|  |.-----.|  |--.---.-.|  |
+|    |  |  ||  _  ||  _  |  _  ||  |
+|_______|__||_____||_____|___._||__|
+                                     */
 /* We define the variables we wull be using here, specifically the colors of which we will use the vice base16 scheme of course */
 :root {
   --global-bg: #121418;
@@ -5,11 +10,11 @@
   --global-animation-speed: 300ms;
   --global-blur-strength: 3px;
   --tooltip-error-bg: #ff3d81;
-  --tooltip-success-bg: #22ffddff;
+  --tooltip-success-bg: #00D597;
   --button-bg-hover: #3c3f4cbb;
   --button-bg: #17191ebb;
   --button-bg-focus: #2fb1d4;
-  --button-bg-active: #2eedae;
+  --button-bg-active: #00D597;
   --login-form-elements-bg: #22262dbb;
   --login-form-elements-fg: #f4f4f7;
   --login-form-elements-button-bg: var(--login-form-elements-bg);
@@ -61,7 +66,7 @@ body {
 
 html * {
   color: var(--global-fg) !important;
-  font-family: "Inter", "Roboto", sans-serif !important;
+  font-family: 'Inter', 'Roboto', sans-serif !important;
 }
 
 /* Remove outline on input fields on chrome */
@@ -73,6 +78,22 @@ button {
 }
 
 /* Placeholder */
+::-webkit-input-placeholder {
+  color: var(--font-color);
+  opacity: 0.65;
+}
+::-moz-placeholder {
+  color: var(--font-color);
+  opacity: 0.65;
+}
+:-ms-input-placeholder {
+  color: var(--font-color);
+  opacity: 0.65;
+}
+::-ms-input-placeholder {
+  color: var(--font-color);
+  opacity: 0.65;
+}
 ::placeholder {
   color: var(--font-color);
   opacity: 0.65;
@@ -83,6 +104,9 @@ option {
 }
 
 img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 

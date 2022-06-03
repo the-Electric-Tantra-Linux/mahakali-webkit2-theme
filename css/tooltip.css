@@ -1,3 +1,11 @@
+/* _______               __ __   __
+|_     _|.-----.-----.|  |  |_|__|.-----.
+  |   |  |  _  |  _  ||  |   _|  ||  _  |
+  |___|  |_____|_____||__|____|__||   __|
+                                  |__|    */
+/* ------------------------------------------------- */
+
+/* Styles for the tooltip popups */
 .tooltip-parent {
   position: relative;
   display: inline-block;
@@ -16,7 +24,7 @@
 }
 
 .tooltip-parent .tooltip-message::after {
-  content: " ";
+  content: ' ';
   position: absolute;
   border-style: solid;
 }

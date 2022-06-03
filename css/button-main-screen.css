@@ -1,9 +1,16 @@
+/* ______         __   __
+|   __ \.--.--.|  |_|  |_.-----.-----.
+|   __ <|  |  ||   _|   _|  _  |     |
+|______/|_____||____|____|_____|__|__|
+                                       */
 /* buttons on the main dialog and not the ones in the sidebar */
 
 #buttons-main-screen {
   display: inline-flex;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 
@@ -30,6 +37,7 @@
   max-height: 32px;
   width: 32px;
   height: 32px;
+  -o-object-fit: contain;
   object-fit: contain;
   display: block;
   background: var(--button-bg);

@@ -1,3 +1,11 @@
+/* _______
+|     __|.----.----.-----.-----.-----.
+|__     ||  __|   _|  -__|  -__|     |
+|_______||____|__| |_____|_____|__|__|     */
+
+/* ------------------------------------------------- */
+
+/* This is the overall screen styling adjusting for the size of the user's screen in a relative manner that allows use on various systems and screens */
 .screen {
   width: 100%;
   height: 100%;
@@ -10,6 +18,8 @@
   background: #22262d;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 
@@ -32,9 +42,10 @@
   width: 100vw;
   height: 100vh;
   background: #000000;
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: 0;
-  content: "";
+  content: '';
   top: 0;
   left: 0;
   z-index: 0;
@@ -71,6 +82,7 @@
 #goodbye-power-icon.goodbye-content {
   width: 88px;
   height: 88px;
+  -o-object-fit: contain;
   object-fit: contain;
   display: block;
   margin: 0 10px;
@@ -108,6 +120,8 @@
   cursor: default;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 

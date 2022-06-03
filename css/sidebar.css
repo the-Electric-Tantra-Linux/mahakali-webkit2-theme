@@ -1,3 +1,9 @@
+/* _______ __     __         __
+|     __|__|.--|  |.-----.|  |--.---.-.----.
+|__     |  ||  _  ||  -__||  _  |  _  |   _|
+|_______|__||_____||_____||_____|___._|__|       */
+/* ------------------------------------------------- */
+/* Styles the sidebar pull out drawer with the options the user may change at their pleasure. */
 #sidebar-overlay {
   width: 100%;
   height: 100%;
@@ -21,6 +27,7 @@
   background: var(--sidebar-bg);
   box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
     -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(var(--global-blur-strength));
   backdrop-filter: blur(var(--global-blur-strength));
   position: fixed;
   top: 0;
@@ -33,6 +40,8 @@
   z-index: 5;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
   transition: all var(--global-animation-speed);
 }
@@ -102,6 +111,7 @@ img.button-navigation-back-image {
   margin: 0 auto;
   padding: 5px;
   display: block;
+  -o-object-fit: cover;
   object-fit: cover;
   border: none;
 }
@@ -157,6 +167,7 @@ img.button-sidebar-item-image {
   height: 100%;
   position: relative;
   display: block;
+  -o-object-fit: cover;
   object-fit: cover;
   border: none;
 }
@@ -216,6 +227,7 @@ img.button-sidebar-item-image {
   height: 64px;
   margin: 0 auto;
   display: block;
+  -o-object-fit: cover;
   object-fit: cover;
   border: none;
 }
@@ -395,6 +407,7 @@ button.button-input:active {
   height: 56px;
   width: 56px;
   border-radius: 50%;
+  -o-object-fit: cover;
   object-fit: cover;
   flex-flow: column wrap;
   display: flex;
@@ -415,6 +428,8 @@ button.button-input:active {
   word-wrap: break-word;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 
@@ -425,5 +440,7 @@ button.button-input:active {
   font-weight: 400;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }

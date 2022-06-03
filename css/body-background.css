@@ -1,4 +1,9 @@
-.body-background {
+ /* ______           __
+|   __ \.-----.--|  |.--.--.
+|   __ <|  _  |  _  ||  |  |
+|______/|_____|_____||___  |
+                     |_____| */
+                     .body-background {
   width: 100%;
   height: 100%;
   top: 0;
@@ -16,5 +21,7 @@
   background-attachment: fixed;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
-  user-select: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
 }
